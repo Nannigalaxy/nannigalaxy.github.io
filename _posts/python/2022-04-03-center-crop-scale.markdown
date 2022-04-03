@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Image Center Crop and Scaling using OpenCV in Python"
+title:  "Image Center Crop and Scaling using OpenCV in Python"
+title:  "Short writeup on how to Center Crop and custom Scale image using OpenCV in Python"
 date:   2022-04-03
 categories: Python OpenCV
 ---

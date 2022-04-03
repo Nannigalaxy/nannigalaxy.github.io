@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to set ARM-DISARM Switch in Mission Planner and RC Transmitter for Pixhawk"
+title:  "Quick tip on setting arm disarm switch on pixhawk and rc for beginners"
 date:   2022-04-03
 categories: Aero Pixhawk
 ---

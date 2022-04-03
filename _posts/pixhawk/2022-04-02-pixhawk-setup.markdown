@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Pixhawk: Getting started with initial setup"
+title:  "Quick guide on how to setup pixhawk for beginners"
 date:   2022-04-02
 categories: Aero Pixhawk
 ---

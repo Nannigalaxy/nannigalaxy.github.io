@@ -11,7 +11,7 @@ First check existing gcc version, the default is 7.3 on Ubuntu 18.04
 $ gcc --version
 gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0
 ```
-
+<br>
 
 1. Download gcc/g++ 5
 ```shell
@@ -32,7 +32,7 @@ $ gcc --version
 gcc (Ubuntu 5.5.0-12ubuntu1) 5.5.0 20171010
 ```
 
-
+<br>
 <b>Important: To revert above actions</b>
 ```shell
 cd /usr/bin

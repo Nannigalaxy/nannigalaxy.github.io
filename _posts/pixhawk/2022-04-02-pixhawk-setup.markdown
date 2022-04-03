@@ -3,7 +3,7 @@ layout: post
 title:  "Pixhawk: Getting started with initial setup"
 description:  "Quick guide on how to setup pixhawk for beginners"
 date:   2022-04-02
-categories: Aero Pixhawk
+categories: Pixhawk
 ---
 ![](https://docs.px4.io/master/assets/img/console_debug.a86c2eb3.jpg)
 

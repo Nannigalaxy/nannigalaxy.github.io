@@ -3,7 +3,7 @@ layout: post
 title:  "How to set ARM-DISARM Switch in Mission Planner and RC Transmitter for Pixhawk"
 description:  "Quick tip on setting arm disarm switch on pixhawk and rc for beginners"
 date:   2022-04-03
-categories: Aero Pixhawk
+categories: Pixhawk
 ---
 
 I got into making an autonomous quadcopter for a project with no prior knowledge of what goes into building one. As a beginner myself, I was overwhelmed with the number of parameter settings in Mission Planner.  

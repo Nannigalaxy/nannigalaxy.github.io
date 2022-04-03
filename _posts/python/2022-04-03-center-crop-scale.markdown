@@ -4,7 +4,7 @@ title:  "Image Center Crop and Scaling using OpenCV in Python"
 date:   2022-04-03
 categories: Python OpenCV
 ---
-## [TLDR;](/center-crop-scale#h-full-code)
+#### [TLDR;](/center-crop-scale#h-full-code)
 ## a. Center Crop  
 ![X-Y Coordinate System](https://www2.cs.sfu.ca/CourseCentral/166/oshklars/_images/screenCoord.png)
 <center>X-Y Coordinate System</center>  

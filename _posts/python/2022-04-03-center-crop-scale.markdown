@@ -6,7 +6,11 @@ categories: Python OpenCV
 ---
 ## [TLDR;](/center-crop-scale#h-full-code)
 ## a. Center Crop  
-X-Y Coordinate SystemCenter crop is cropping an image from center which gives an equal padding on both sides vertically and horizontally. It is useful when dealing with many images with different resolutions, say for the computer vision or machine learning applications.  
+![X-Y Coordinate System](https://www2.cs.sfu.ca/CourseCentral/166/oshklars/_images/screenCoord.png)
+<center>X-Y Coordinate System</center>  
+<br>
+
+Center crop is cropping an image from center which gives an equal padding on both sides vertically and horizontally. It is useful when dealing with many images with different resolutions, say for the computer vision or machine learning applications.  
 I was working on a webcam and pi camera that had different resolutions. So I created a function to crop from center to maximum dimension without exceeding the available dimension of the original image.  
 
 
@@ -16,7 +20,7 @@ Let's create a function center_crop() with parameters as image and crop dimensio
 def center_crop(img, dim):
   """Returns center cropped image
 
-  Args:Image Scaling
+  Args:
   img: image to be center cropped
   dim: dimensions (width, height) to be cropped from center
   """

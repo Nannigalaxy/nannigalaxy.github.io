@@ -4,17 +4,15 @@ title:  " OpenCV Custom Colormap"
 description:  "Adding custom colormap for opencv"
 date:   2022-04-11
 categories: Python OpenCV
+post_image: /assets/posts/custom-colormap-opencv/header.png
 ---
-![](/assets/posts/{{page.url}}/header.png)
+[Colormap](https://docs.opencv.org/4.x/d3/d50/group__imgproc__colormap.html#ga9a805d8262bcbe273f16be9ea2055a65){:target="_blank"} provided by OpenCV is limited and might suffice for most of the users but there be will senarios where the custom colormap is crucial for the intended visual representation.  
 
-
-[Colormap](https://docs.opencv.org/4.x/d3/d50/group__imgproc__colormap.html#ga9a805d8262bcbe273f16be9ea2055a65){:target="_blank"} provided by OpenCV is limited and might suffice for most users but there will senarios where custom colormap is crucial for intended visual representation.  
-
-Now we will see how can create our own colormap using ['Lookup Table'](https://docs.opencv.org/4.x/d2/de8/group__core__array.html#gab55b8d062b7f5587720ede032d34156f){:target="_blank"}.  
+Now we will see how we can create our own colormap using ['Lookup Table'](https://docs.opencv.org/4.x/d2/de8/group__core__array.html#gab55b8d062b7f5587720ede032d34156f){:target="_blank"}.  
 
 ### Creating LUT
 
-Let's create a function to handle RGB mappping from the dictionary to image.
+Let's create a function to handle RGB mappping from the dictionary.
 
 ```Python  
 def cvlut(colordict):
@@ -48,7 +46,7 @@ def cvlut(colordict):
     return lut
 ```
 
-The above function creates LUT for specified grayscale range.
+The above function creates LUT for specified grayscale range. You will get to know what I'm talking about as you continue to read.
 
 Now let's see how we can use the created function to apply colormap
 
@@ -63,7 +61,7 @@ ndvi_color = cv2.LUT(input_gray_image, custom_lut)
 ```
 
 The color applied is 'Pseudocolor' aka 'False Color' as it is mapping to grayscale image. So, the actual range is between `0-255`, upon which RGB is assigned and produce color image.
-In `colormap_dict` dictionary each key specifies range of grayscale to map RGB value till succesive key value. This is rudamentary implementation to test the function. I would suggest to generate colormap file with RGB and load.  
+In `colormap_dict` dictionary each key specifies range of grayscale to map RGB value till succesive key value. This is a rudamentary and temporary implementation to test the function. I would suggest to generate colormap file with RGB and load.  
 
 <b> Colormap file example:</b>
 ```custom_colormap.txt

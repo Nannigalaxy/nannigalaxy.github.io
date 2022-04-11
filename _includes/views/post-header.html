@@ -1,8 +1,13 @@
 <header class="post-header">
+  {%- if page.post_image -%}
+    <img src="{{ page.post_image | absolute_url }}" style="margin: auto; align-self: center; padding-bottom: 40px;">
+    <br>
+  {%- endif -%}
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
   <p class="post-meta">
+
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
       <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}

@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: NGx Blog
+title: NGx Space
 email: nannigalaxy25@gmail.com
 author: Nandan M
 github_username:  Nannigalaxy

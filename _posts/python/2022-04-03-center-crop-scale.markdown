@@ -5,7 +5,7 @@ description:  "Short writeup on how to Center Crop and custom Scale image using 
 date:   2022-04-03
 categories: Python OpenCV
 ---
-#### [TLDR;](/center-crop-scale#h-full-code)
+#### [TL;DR](/center-crop-scale#h-full-code)
 ## a. Center Crop  
 ![X-Y Coordinate System](https://www2.cs.sfu.ca/CourseCentral/166/oshklars/_images/screenCoord.png)
 <center>X-Y Coordinate System</center>  

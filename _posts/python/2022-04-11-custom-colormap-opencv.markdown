@@ -3,7 +3,6 @@ layout: post
 title:  " OpenCV Custom Colormap"
 description:  "Adding custom colormap for opencv"
 date:   2022-04-11
-last_modified_at: 2022-05-11
 categories: Python OpenCV
 ---
 ![](/assets/posts/{{page.url}}/header.png)
